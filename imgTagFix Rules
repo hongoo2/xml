@@ -1,0 +1,7 @@
+<table태그 내부에 있을때>
+- fig태그 안에있는 image태그의 placement속성은 break이어야 함 (inline이라면 break으로 바꾸기)
+- fig태그 없이 단독으로 쓰인 image태그의 placement속성은 inline이어야 함 (break라면 inline으로 바꾸기)
+
+<table태그 외부에 있을때>
+- image태그의 placement속성은 break이어야 함 (inline으로 되어있다면 break으로 바꾸기)
+*단 table 태그 외부에서 image태그가 p태그 내에 위치하는 경우는 placement속성이 inline이어야 함 (break으로 되어있다면 inline으로 바꾸기)
